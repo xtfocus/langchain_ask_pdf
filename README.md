@@ -1,7 +1,7 @@
 # Chat with your pdf. 
 
 
-![](https://github.com/xtfocus/langchain_ask_pdf/app.gif)
+![](https://github.com/xtfocus/langchain_ask_pdf/blob/master/app.gif)
 
 ## Features:
 
