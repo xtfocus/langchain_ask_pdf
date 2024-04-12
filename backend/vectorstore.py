@@ -9,9 +9,9 @@ import re
 from datetime import datetime
 
 import torch
-from langchain.chains import (create_history_aware_retriever,
-                              create_retrieval_chain)
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
+
 # from langchain.document_loaders import UnstructuredFileLoader
 from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -64,7 +64,7 @@ def create_docstore_dir() -> None:
         os.makedirs(DOCSTORE_DIR)
 
 
-def get_embedding_model(model_name: str = "facebook/dpr-ctx_encoder-single-nq-base"):
+def get_embedding_model(model_name: str = "multi-qa-MiniLM-L6-cos-v1"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model_kwargs = {"device": device}

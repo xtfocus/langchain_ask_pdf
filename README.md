@@ -25,6 +25,7 @@
 
 ## TODO:
 
+- [ ] streaming tokens
 - [ ] config file for ease of switching models
 - [ ] requirements.txt
 - [ ] option to browse your own gguf (chat models are better)
