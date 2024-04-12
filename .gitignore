@@ -1,0 +1,5 @@
+notebooks/*
+backend/docstores/*
+backend/*.pdf
+backend/*.env
+__pycache__/
