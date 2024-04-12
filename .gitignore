@@ -2,4 +2,5 @@ notebooks/*
 backend/docstores/*
 backend/*.pdf
 backend/*.env
+backend/*.gguf
 __pycache__/

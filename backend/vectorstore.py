@@ -9,9 +9,9 @@ import re
 from datetime import datetime
 
 import torch
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
+from langchain.chains import (create_history_aware_retriever,
+                              create_retrieval_chain)
 from langchain.chains.combine_documents import create_stuff_documents_chain
-
 # from langchain.document_loaders import UnstructuredFileLoader
 from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -124,7 +124,7 @@ def digest(file_path):
 def get_llm(
     PATH_TO_MISTRAL_GGUF: str = "/home/tung/.my_ollama_mods/mistral-7b-instruct-v0.2.Q4_K_M.gguf",
 ):
-    N_GPU_LAYERS = 1
+    N_GPU_LAYERS = 2
     N_BATCH = 512
 
     llm = LlamaCpp(

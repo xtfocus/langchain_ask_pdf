@@ -1,5 +1,8 @@
 # Chat with your pdf. 
 
+
+![](https://github.com/xtfocus/langchain_ask_pdf/app.gif)
+
 ## Features:
 
 - [x] Open source LLMs: no OpenAI API key needed

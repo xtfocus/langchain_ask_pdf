@@ -2,8 +2,12 @@ import os
 from time import sleep
 
 import streamlit as st
-from vectorstore import (create_history_from_st_messages, digest,
-                         generate_response, write_tmp_file)
+from vectorstore import (
+    create_history_from_st_messages,
+    digest,
+    generate_response,
+    write_tmp_file,
+)
 
 st.title("🖥️ Ask Your PDF")
 
